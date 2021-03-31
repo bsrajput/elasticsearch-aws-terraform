@@ -4,7 +4,7 @@
 
 *** AWS
 
-We are using AWS cloud services to run our 3 node Elasticsearch Cluster.
+We are using AWS cloud services to run our 3 node Elasticsearch Cluster:
 
  - VPC + Networking
  - SNS
@@ -14,7 +14,7 @@ We are using AWS cloud services to run our 3 node Elasticsearch Cluster.
 
 * Cloud Resource Provisioner
 
-*** Terraform
+*** Terraform:
 
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
 
@@ -28,7 +28,7 @@ Terraform is a tool for building, changing, and versioning infrastructure safely
 
 We will be using AWS IAM and AWS STS to assume a role abd boot resources.
 
-To boot the AWS Resources.
+To boot the AWS Resources:
 
 #+BEGIN_SRC
 # PubSub
